@@ -65,7 +65,7 @@ const sketch = ({ context }) => {
 
   scene.add(new THREE.AmbientLight("hsl(0, 0%, 10%)"));
 
-  const light = new THREE.DirectionalLight("white", 0.7);
+  const light = new THREE.DirectionalLight("white", 0.9);
   light.position.set(1, 4, 1);
   scene.add(light);
 
